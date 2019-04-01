@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Parallels</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header>
+
+        <!-- desktop navbar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4 main">
+                       <div class="logo">
+                            <i class="fab fa-slack"></i>
+                            <a href="#">Parallels</a>
+                       </div>
+                    </div>
+
+                    <div class="col-md-8 second">
+                        <a href="#">Home</a>
+                        <a onclick="clickFun()" href="#">Services</a>
+                        <a href="#" onclick="add(3, 4)">Protfolio</a>
+                        <a id="changecolor" onclick="changeColor()" href="#">Pricing</a>
+                        <a href="#">About</a>
+                        <a id="redClass" onclick="changeRed()" href="#">Contact</a>
+
+                        <i class="fas fa-search"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- mobile sidemenu -->
+        <div class="mobile-nav">
+            <span class="openbtn" onclick="openNav()"><i class="fas fa-bars"></i></span>
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times-circle"></i></a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+
+        <div class="mobile-slider">
+            <div class="slider" style="background-image:url(img/s1.jpg)">
+                <div class="container">
+                    <div class="row">
+    
+                        <div class="col-md-12 heading" >
+                            <h1>Wellcome To Parallels Clean Responsive Parallex Theme</h1>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <section>
+        <div class="services">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <h1>Our Services</h1>
+                    </div>
+
+                    <div class="seprator">
+
+                    </div>
+
+                    <div class="serve">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <i class="fas fa-adjust"></i>
+                                <h3>Web Design</h3>
+                                <p>Adalah menjadi satu fakta bahawa pembaca akan terganggu oleh text yang boleh difahami apabila melihat susunan mukasurat. Kegunaan</p>
+                            </div>
+        
+                            <div class="col-md-3">
+                                <i class="fas fa-adjust"></i>
+                                <h3>Web Design</h3>
+                                <p>Adalah menjadi satu fakta bahawa pembaca akan terganggu oleh text yang boleh difahami apabila melihat susunan mukasurat. Kegunaan</p>
+                            </div>
+        
+                            <div class="col-md-3">
+                                <i class="fas fa-adjust"></i>
+                                <h3>Web Design</h3>
+                                <p>Adalah menjadi satu fakta bahawa pembaca akan terganggu oleh text yang boleh difahami apabila melihat susunan mukasurat. Kegunaan</p>
+                            </div>
+        
+                            <div class="col-md-3">
+                                <i class="fas fa-adjust"></i>
+                                <h3>Web Design</h3>
+                                <p>Adalah menjadi satu fakta bahawa pembaca akan terganggu oleh text yang boleh difahami apabila melihat susunan mukasurat. Kegunaan</p>
+                             </div> 
+                        </div> 
+                    </div>  
+                        
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="theme" style="background-image: url(img/t1.jpg)">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <h1>Do you like this clean theme?</h1>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="row">
+
+                            <div class="button1">
+                                <div class="row">
+                                    <a href="#">Purchase</a>
+                                </div>
+                            </div>
+            
+                            <div class="button2">
+                                <div class="row">
+                                    <a href="#">Follow</a>
+                                </div>
+                            </div>
+
+                         </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="portfolio">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <h1>Portfolio</h1>
+
+                        <div class="button3">
+                            <a href="#">Web-Design</a>
+                            <a href="#">Web-Design</a>
+                            <a href="#">Web-Design</a>
+                            <a href="#">Web-Design</a>
+                        </div>
+                    </div>
+
+                        <div class="images">
+                            <div class="row">
+
+                                <div class="col-md-3">
+                                    <div class="quantity">
+                                        <div class="quantity-image" style="background-image:url(img/t1.jpeg)"></div style="width:100%"> 
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="quantity">
+                                        <div class="quantity-image" style="background-image:url(img/t2.jpeg)"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="quantity">
+                                        <div class="quantity-image" style="background-image:url(img/t3.jpeg)"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="quantity">
+                                        <div class="quantity-image" style="background-image:url(img/t5.jpeg)"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="quantity">
+                                        <div class="quantity-image" style="background-image:url(img/t3.jpeg)"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="quantity">
+                                        <div class="quantity-image" style="background-image:url(img/t5.jpeg)"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="quantity">
+                                        <div class="quantity-image" style="background-image:url(img/t2.jpeg)"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="quantity">
+                                        <div class="quantity-image" style="background-image:url(img/t1.jpeg)"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="load">
+                                <h3>Load More</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="price" style="background-image:url(img/p2.jpeg)">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <h1>Pricing Table Clean Beautiful Flat Table.</h1>
+
+                            <div class="button4">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="rates">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <h1>Our Prices</h1>
+
+                        <div class="seprator">
+
+                        </div>
+
+                        <p>Matagal na nating alam na nakukuha ang atensyon ng nagbabasa ang nababasa na nilalaman ng pahina kapag tinitignan ang pagkakaayos. Ang punto ng paggamit ng Lorem Ipsum ay ito ay may humigit-kumulang na normal na distribusyion ng mga lettra, kesa sa paggamit ng 'Dito ang nilalaman, dito ang nilalaman', pinamumuka nitong nababasa. Maraming desktop publishing packages at web page editors ang gumagamit na ngayong ng Lorem Ipsum bilang regular na modelo ng nilalaman, at ang pag-search ng 'lorem ipsum' ay mag bubunyag ng maraming web sites na nasa kabataan pa lamang nilaa</p>
+                    </div>
+
+                    <div class="service">
+                        <div class="row">
+
+                            <div class="col-md-4 color1">
+                                <h2>Website Hosting</h2>
+                                <ul>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                </ul>
+                                
+                                <div class="button5">
+                                    <a href="#">Purchase</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 color1">
+                                <h2>Reseller Could</h2>
+                                <ul>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                </ul>
+                                
+                                <div class="button5">
+                                    <a href="#">Purchase</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 color1">
+                                <h2>Dedicated Hosting</h2>
+                                <ul>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                </ul>
+                                
+                                <div class="button5">
+                                    <a href="#">Purchase</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <h2>Server Hosting</h2>
+                                <ul>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                </ul>
+                                
+                                <div class="button5">
+                                    <a href="#">Purchase</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                 <h2>Design Hosting</h2>
+                                <ul>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                </ul>
+                                
+                                <div class="button5">
+                                    <a href="#">Purchase</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                 <h2>Wifi Hosting</h2>
+                                <ul>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                </ul>
+                                
+                                <div class="button5">
+                                    <a href="#">Purchase</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <h2>Website Hosting</h2>
+                                <ul>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                    <li><a href="#">$10/Month</a></li>
+                                </ul>
+                                
+                                <div class="button5">
+                                    <a href="#">Purchase</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="client">
+
+                        <div class="col-md-12">
+                            <h1>Clients Abouts Us</h1>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section>
+        <div class="gif">
+            <div class="row">
+
+                <img src="img/1.gif">
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="about">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                       <h1>About Us</h1>
+                    </div>
+
+                    <div class="col-md-12 pic">
+                        <div class="row">
+
+                            <div class="col-md-3">
+                                <img src="img/d1.jpg">
+                                <h1>Dohe John</h1>
+                                <h3>Designer</h3>
+                                <p>Nakuku ha ang ate nsyon ng nag babasa ang nabab asa na nil alaman ng pahina kapag tinit ignan ang</p>
+                            </div>
+        
+                            <div class="col-md-3">
+                                <img src="img/q1.jpg">
+                                <h1>Mark John</h1>
+                                <h3>Designer</h3>
+                                <p>Nakuku ha ang ate nsyon ng nag babasa ang nabab asa na nil alaman ng pahina kapag tinit ignan ang</p>
+                            </div>
+        
+                            <div class="col-md-3">
+                                <img src="img/tt.jpg">
+                                <h1>John Dee</h1>
+                                <h3>Designer</h3>
+                                <p>Nakuku ha ang ate nsyon ng nag babasa ang nabab asa na nil alaman ng pahina kapag tinit ignan ang</p>
+                            </div>
+        
+                            <div class="col-md-3">
+                                <img src="img/tte.jpg">
+                                <h1>Marie Grars</h1>
+                                <h3>Designer</h3>
+                                <p>Nakuku ha ang ate nsyon ng nag babasa ang nabab asa na nil alaman ng pahina kapag tinit ignan ang</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill">
+               <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <h1>Our Skills.</h1>
+
+                            <div class="seprator">
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 meter">
+                            <div class="row">
+
+                                <div class="col-md-3">
+                                    <img src="img/">
+                                    <h4>85%</h4>
+                                    <h6>UI-Design</h6>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img src="img/">
+                                    <h4>85%</h4>
+                                    <h6>Manager</h6>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img src="img/">
+                                    <h4>85%</h4>
+                                    <h6>Designer</h6>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img src="img/">
+                                    <h4>85%</h4>
+                                    <h6>Empolye</h6>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="result" style="background-image:url(img/ii1.png)">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <h1>YOU LOOKED OVER 6000 PX THAT'S GREAT!</h1>
+                    </div>
+
+                    <div class="col-md-6">
+                     </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section>
+
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <h1>Contact Us</h1>
+
+                        <div class="seprator">
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-12">
+
+                        <div class="col-md-8">
+
+                            <h1>Mails</h1>
+
+                            <div class="col-md-4">
+                                <input type="name" placeholder="Your Name Here">
+                            </div>
+
+                            <div class="col-md-4">
+                                <input type="name" placeholder="Your Name Here">
+                            </div>
+                                                       
+                        </div>
+
+                        <div class="col-md-4">
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+ 
+
+    </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
