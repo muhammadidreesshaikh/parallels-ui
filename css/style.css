@@ -536,6 +536,8 @@ body
   {
     margin-top: 80px;
     background-color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .rates .service .menu:hover
@@ -553,9 +555,27 @@ body
   .rates .service .menu a
   {
     color: black;
+    margin-right: 30px;
   }
 
-  .rates .service .menu a:hover
+  .rates .service .menu .button6
+  {
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+
+  .rates .service .menu .button6 a
+  {
+    border: 1px solid #08da08;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: #0bd00b;
+    text-decoration: none;
+    box-shadow: 3px 3px 1px grey;
+  }
+
+  .rates .service .menu .button6 a:hover
   {
     background-color: violet
     opacity: 0.5s;
@@ -937,6 +957,11 @@ body
     font-size: 15px;
     padding-left: 15px;
   }
+  .rates .service .menu a 
+  {
+    padding-right: 29px;
+  }
+
 }
 
 @media screen and (max-width: 600px) 
@@ -966,14 +991,91 @@ body
   {
     padding-top: 170px;
   }
+  .services .serve i
+  {
+    margin-top: 90px;
+  }
+  .services .serve p
+  {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+  }
+  .serve
+  {
+    display: block;
+    padding-top: 0;
+  }
+  .theme .buttons .button1
+  {
+    padding-left: 70px;
+    margin-right: 5px;
+  }
+  .theme .buttons .button2
+  {
+    padding-left: 30px;
+    margin-left: 5px;
+  }
+  .portfolio .images .quantity-image
+  {
+    height: 600px;s
+  }
+  .portfolio .load h3
+  {
+    margin-left: 40px;
+  }
+  .portfolio .load i
+  {
+    font-size: 40px;
+    margin-left: 40px;
+  }
+  .price
+  {
+    background-blend-mode: soft-light;
+    background-color: #464646;
+  }
+  .price h1
+  {
+    font-size: 27px;
+    margin-right: 30px;
+  }
+  .rates .service .color1
+  {
+    margin-top: 50px;
+  }
+
 }
 
 @media screen and (max-width: 414px) 
 {
+  .theme .buttons .button1 
+  {
+    padding-left: 100px;
+    margin-right: 5px;
+  }
+  .theme .buttons .button2
+  {
+    padding-left: 30px;
+  }
+  .price h1
+  {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
 
 }
 
 @media screen and (max-width: 375px) 
 {
-
+  .theme .buttons .button1
+  {
+    padding-left: 70px;
+    margin-right: 5px;
+  }
+  .theme .buttons .button2
+  {
+    padding-left: 30px;
+    margin-left: 5px;
+  }
 }
