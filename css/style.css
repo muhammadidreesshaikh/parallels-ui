@@ -491,6 +491,7 @@ body
     color: white;
     font-size: 18px;
     text-decoration: none;
+    padding-right: 30px;
   }
 
   .rates .service li
@@ -509,7 +510,7 @@ body
 
   .rates .service .button5
   {
-    margin-left: 30px;
+    /* margin-left: 30px; */
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -552,15 +553,31 @@ body
     color: gray;
   }
 
-  .rates .service .menu a
+  .rates .service .menu ul
+  {
+    padding-top: 30px;
+    list-style: none;
+    margin-bottom: 0;
+  }
+
+  .rates .service .menu li a
+  {
+    /* padding-left: 30px; */
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+
+  /* .rates .service .menu a
   {
     color: black;
     margin-right: 30px;
-  }
+  } */
 
   .rates .service .menu .button6
   {
-    margin-left: 40px;
+    margin-left: 10px;
     margin-top: 30px;
   }
 
@@ -908,6 +925,59 @@ body
     transition: 0.5s;
   }
 
+  .connect
+  {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 130px;
+    background-color: #8e8e8e;
+    background-blend-mode: soft-light;
+  }
+
+  .connect h1
+  {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+
+  .connect h5
+  {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+    font-weight: 100;
+  }
+
+  .connect .icon1
+  {
+    margin-top: 30px;
+  }
+
+  .connect .icon1 i
+  {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 20px 20px 20px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+    background-color: black;
+    color: #31ff0d;
+  }
+
+  .connect .icon1 i:hover
+  {
+    background-color: #04eff7;
+    color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+
 
 
 
@@ -957,10 +1027,10 @@ body
     font-size: 15px;
     padding-left: 15px;
   }
-  .rates .service .menu a 
+  /* .rates .service .menu a 
   {
     padding-right: 29px;
-  }
+  } */
 
 }
 
@@ -1043,6 +1113,38 @@ body
   {
     margin-top: 50px;
   }
+  .rates p
+  {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .rates .client h1 
+  {
+    font-size: 28px;
+  }
+  .rates .client h1:before
+  {
+    top: 16px;
+    width: 18%;
+    height: 3px;
+  }
+  .rates .client h1::after
+  {
+    top: 16px;
+    width: 18%;
+    height: 3px;
+  }
+  .about .pic img
+  {
+    margin-top: 50px;
+  }
+  .about .pic p 
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
 
 }
 
