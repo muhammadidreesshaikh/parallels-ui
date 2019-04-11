@@ -977,6 +977,107 @@ body
     transition: 0.5s;
   }
 
+  .mails 
+  {
+    background-color: #333333;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+
+  .mails .msgs h3
+  {
+    color: white;
+    margin-bottom: 0;
+    font-size: 27px;
+  }
+
+  .mails .msgs .seprator
+  {
+    width: 95%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .mails .msgs i
+  {
+    color: #0af90a;
+    padding-top: 25px;
+    font-size: 25px;
+  }
+
+  .mails .msgs p
+  {
+    margin-bottom: 0;
+    color: gray;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
+  .mails .msgs p span
+  {
+    color: #04f717;
+  }
+
+
+  .mails .msgs i:hover
+  {
+    color: #04eff7;
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+
+  .mails .post h3
+  {
+    color: white;
+    margin-bottom: 0;
+    font-size: 27px;
+  }
+
+  .mails .post .seprator
+  {
+    width: 95%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .mails .post p
+  {
+    margin-bottom: 0;
+    color: gray;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
+  .mails .photo h3
+  {
+    color: white;
+    margin-bottom: 0;
+    font-size: 27px;
+  }
+
+  .mails .photo .seprator
+  {
+    width: 95%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .mails .photo img
+  {
+    width: 32%;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 2px;
+  }
+
 
 
 
