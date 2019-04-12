@@ -1079,6 +1079,55 @@ body
   }
 
 
+  .footer
+  {
+    background-color: #3e3e3e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer  .logo2 i
+  {
+    color: #09f509;
+    font-size: 30px;
+  }
+
+  .footer .logo2 a
+  {
+    font-size: 25px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer .email
+  {
+    padding-top: 5px;
+  }
+
+  .footer .email p
+  {
+    text-align: center;
+    margin-bottom: 0;
+    color: #909090;
+    font-size: 16px;
+  }
+
+  /* .footer .detail
+  {
+
+  }
+
+  .footer .detail ul
+  {
+
+  }
+
+  .footer .detail li a
+  {
+
+  } */
+
 
 
 
